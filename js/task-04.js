@@ -5,11 +5,11 @@ const spanValue = document.querySelector('#value');
 let counterValue = 0;
 dectBtn.addEventListener("click", () => {
     counterValue -= 1;
-    return spanValue.textContent = counterValue;
+    spanValue.textContent = counterValue;
 });
 
 incrBtn.addEventListener("click", () => {
     counterValue += 1;
-    return spanValue.textContent = counterValue;
+    spanValue.textContent = counterValue;
 });
 
